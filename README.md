@@ -1,8 +1,8 @@
-20200716_P1_安裝docker及docker-compose過程寫入腳本(.sh)
+20200723_P1_安裝docker及docker-compose過程寫入腳本(.sh)
 
 寫入腳本setting.sh這支程式裡
 
-1.開啟虛擬機器(centos7)，建議使用user進入(建議別使用root)
+1.開啟虛擬機器(ubuntu)，建議使用user進入(建議別使用root)
 
 2.建議使用MobaXterm 遠端連線程式，ssh遠端連線，進入後打開終端機
 
@@ -48,13 +48,13 @@
 	
 	#安裝git
 	
-	sudo yum install git-all
+	sudo apt-get install git
   
-    git clone https://github.com/og80218/2020_docker-dockercompose_installation-process_script.git
+    git clone https://github.com/og80218/2020_ubuntu_dockercompose_installation-process_script.git
 	
 	#下載完成後
 	
-	cd 2020_docker-dockercompose_installation-process_script
+	cd 2020_ubuntu_dockercompose_installation-process_script
 	
 	sh setting.sh
 	
